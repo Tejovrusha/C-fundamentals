@@ -9,7 +9,7 @@ struct Device{
     uint8_t Status;
     uint8_t Data;
 } *device[3];
-//size of Device = 3 bits
+//size of Device = 3 bytes
 
 void print_memory(){
     for(int i=0; i<10;i++){
